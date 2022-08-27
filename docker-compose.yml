@@ -8,3 +8,4 @@ services:
       - "80:80"
     environment:
       NODE_ENV: production
+    container_name: vue_dev_env

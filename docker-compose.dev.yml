@@ -1,6 +1,6 @@
 version: "3.9"
 services:
-  web:
+  web:    
     image: node
     ports:
       - "5173:80"
@@ -9,4 +9,5 @@ services:
     environment:
       NODE_ENV: development
     working_dir: /app
+    container_name: vue_dev_env
     command: sh -c "cd /app; npm install; npm run dev"

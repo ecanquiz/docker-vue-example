@@ -1,5 +1,5 @@
 {
-  "name": "frontend-code",
+  "name": "docker-vue-example",
   "version": "0.0.0",
   "scripts": {
     "dev": "vite",
